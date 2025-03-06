@@ -1,0 +1,9 @@
+services:
+  java-app-people:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: java-app-user-people
+    ports:
+      - "8080:8080"
+
